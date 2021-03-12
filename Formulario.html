@@ -14,7 +14,8 @@
             <h1>Formulario de cadastro no site</h1>
         </header>
     </div>
-    <section id="formulario">
+    <form id="formulario">
+        <div id="Questionario">
         <p id="TextoIntrodutorio">Digite todas as informações</p>
         <p>Nome Completo: <input type="text" name="NomeCompleto" id="NomeCompleto" onclick="preencherCampo()"></p>
         <p>Endereço: <input type="text" name="Endereco" id="Endereco"></p>
@@ -22,8 +23,11 @@
         <p>Usuário <input type="text" name="NomeUsuario" id="NomeUsuario"></p>
         <p>Senha: <input type="password" name="Senha" id="Senha" placeholder="*******"></p>
         <input type="button" value="Realizar Cadastro" id="RealizarCadastro" onclick="ConfirmarCadastro()">
-        
-    </section>
+        </div>
+        <div id="FormularioCadastrado">
+            
+        </div>
+    </form>
 </body> 
 <script src="script.js"></script>
 </html>
